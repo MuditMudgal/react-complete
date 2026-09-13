@@ -1,0 +1,21 @@
+#img-me{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.user-container{
+    width: 202px;
+    border: 2px solid black;
+    background: rgb(151, 151, 151);
+    margin: 10px 10px;
+
+}
+#headline{
+    display: flex;
+    justify-content: center;
+}
+#description{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+}
