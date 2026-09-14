@@ -11,7 +11,7 @@ function App() {
       <>
           <Usercards name="Mudit" image={muditme} desc="dkjenf" style={{"border-radius": "10px"}} />
           <Usercards name="Sunidhi" image={secondme} desc="mndf,mdel" />
-          <Usercards name="Neha" image={thirdme} desc="kdsnnldslk" />
+          <Usercards name="Chunnu" image={thirdme} desc="kdsnnldslk" />
       </>
   );
 }
