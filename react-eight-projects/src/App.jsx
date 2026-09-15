@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
-import './App.css'
-import { useState } from 'react'
+import { useEffect } from "react";
+import "./App.css";
+import { useState } from "react";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -19,9 +19,7 @@ function App() {
 
     return (
         <div>
-            <h1>
-                <strong>Count is {count}</strong>
-            </h1>
+            <p>Count is {count}</p>
             <button onClick={handleCLick}>Count</button>
         </div>
     );
@@ -39,7 +37,7 @@ function App() {
     // useEffect(() => {
     //   alert("im first")
     // }, [])
-    
+
     //variation 3 runs on specific render
     // useEffect(() => {
     //   alert("main hoon Gian")
@@ -56,4 +54,4 @@ function App() {
     //variation 4->multiple dependcies [count, total]
 }
 
-export default App
+export default App;
