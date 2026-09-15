@@ -1,5 +1,9 @@
 # React + Vite
 
+# React Eight Projects
+
+Learning React JS through different projects.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
